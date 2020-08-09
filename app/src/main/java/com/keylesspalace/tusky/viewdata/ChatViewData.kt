@@ -30,9 +30,9 @@ abstract class ChatViewData {
         }
     }
 
-    class Placeholder(val id: Int, val isLoading: Boolean) : ChatViewData() {
+    class Placeholder(val id: String, val isLoading: Boolean) : ChatViewData() {
         override fun getViewDataId(): Int {
-            return id
+            return id.hashCode()
         }
 
         override fun deepEquals(val o: ChatViewData): Boolean {
@@ -71,9 +71,9 @@ abstract class ChatMessageViewData {
         }
     }
 
-    class Placeholder(val id: Int, private val isLoading: Boolean) : ChatMessageViewData() {
+    class Placeholder(val id: String, private val isLoading: Boolean) : ChatMessageViewData() {
         override fun getViewDataId(): Int {
-            return id
+            return id.hashCode()
         }
 
         override fun deepEquals(val o: ChatMessageViewData): Boolean {
