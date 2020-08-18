@@ -130,10 +130,21 @@
     <string-array name="rick_roll_domains" translatable="false">
         <item>gab.com</item>
         <item>gab.ai</item>
-        <item>spinster.xyz</item>
+        <item>mastodon.social</item>
+        <item>mastodon.art</item>
+        <item>cybre.space</item>
+        <item>octodon.social</item>
+        <item>elekk.xyz</item>
+        <item>hellsite.site</item>
+        <item>toot.site</item>
+        <item>rage.love</item>
+        <item>goblin.camp</item>
+        <item>todon.nl</item>
+        <item>vulpine.club</item>
+        <item>fedicy.allowed.org</item>
     </string-array>
 
-    <string name="rick_roll_url">https://www.youtube.com/watch?v=dQw4w9WgXcQ</string>
+    <string name="rick_roll_url">https://www.youtube.com/watch?v=vQP5S-QBFfc</string>
 
 
     <string-array name="poll_duration_names">
